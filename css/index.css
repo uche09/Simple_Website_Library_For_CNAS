@@ -1,0 +1,32 @@
+.ribbon{
+    background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+    border: none;
+    height: 0.75rem;
+    padding: 5px auto;
+
+}
+
+.open img{
+    bottom: 2rem;
+    left: 45%;
+    position: relative;
+    width: 200px;
+}
+
+
+
+     /* Media Queries  */
+
+        /* tablets */
+@media screen and (max-width: 994px){
+    .open img{
+        left: 40%;
+    }
+
+}
+        /* tablets */
+@media screen and (max-width: 994px){
+    .open img{
+        left: 28%;
+    }
+}
