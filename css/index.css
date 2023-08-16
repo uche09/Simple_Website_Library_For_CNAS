@@ -3,30 +3,114 @@
     border: none;
     height: 0.75rem;
     padding: 5px auto;
-
 }
 
-.open img{
+.open-img img{
     bottom: 2rem;
     left: 45%;
     position: relative;
     width: 200px;
 }
 
+.collages{
+    color: #65451F;
+    text-align: center;
+}
+
+.collages h2{
+    font-size: 400%;
+}
+
+.collages hr{
+    border: none;
+    border-bottom-style: dotted;
+    border-width: 1rem;
+    margin: auto auto 3rem;
+    width: 9%;
+}
+
+.collage-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.collages figure{
+    border: 3px solid;
+    border-left-color: #ebcb9f;
+    border-top-color: #ebcb9f;
+    border-right-color: #DAC0A3;
+    border-bottom-color: #DAC0A3;
+    border-radius: 1rem;
+    border-style: outset;
+    margin-bottom: 1.5rem;
+    overflow-wrap: break-word;
+    padding: 0.4rem;
+    width: 20%
+}
+
+.collages img{
+    width: 100%;
+}
+
+.collages a{
+    color: #6C3428;
+    font-size: 1.5rem;
+    text-decoration: none;
+    word-spacing: 0.3rem;
+}
+
+.collages figure a:hover, .collages figure a:focus{
+    color: #3E001F;
+    font-size: 1.525rem;
+}
+
 
 
      /* Media Queries  */
 
-        /* tablets */
+        /* Tablets */
 @media screen and (max-width: 994px){
-    .open img{
+    .open-img img{
         left: 40%;
+        z-index: -1;
+    }
+
+    .collages hr{
+        border-width: 0.8rem;
+        width: 9%;
+    }
+
+    .collages figure{
+        width: 40%
+    }
+
+    .collages a{
+        font-size: 2rem;
     }
 
 }
-        /* tablets */
-@media screen and (max-width: 994px){
-    .open img{
+        /* Mobile */
+@media screen and (max-width: 480px){
+    .open-img img{
         left: 28%;
+        width: 35%;
+    }
+
+    .collages h2{
+        font-size: 300%;
+    }
+
+    .collages hr{
+        border-width: 0.5rem;
+        width: 11%;
+    }
+
+    .collages figure{
+        width: 75%
+    }
+
+    .collages a{
+        font-size: 1.8rem;
     }
 }
