@@ -1,8 +1,24 @@
+body h2{
+    color: #862B0D;
+    font-size: 400%;
+    text-align: center;
+}
+
+body hr{
+    border: none;
+    border-bottom-style: dotted;
+    border-width: 1rem;
+    color: #862B0D;
+    margin: auto auto 3rem;
+    width: 9%;
+}
+
 .ribbon{
     background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
     border: none;
     height: 0.75rem;
     padding: 5px auto;
+    width: 100%;
 }
 
 .open-img img{
@@ -12,21 +28,48 @@
     width: 200px;
 }
 
+.objective{
+    background-color: #ba714f46;
+    border-radius: 5rem;
+    color: #862B0D;
+    margin: 0 auto 4rem;
+    padding: 0.7rem 0.7rem 6rem;
+    width: 90%;
+}
+
+.objective hr{
+    border-width: 0.7rem;
+    width: 4%;
+}
+
+.objective img{
+    float: left;
+    margin-right: 1.3rem;
+    height: 12rem;
+    width: 14%;
+}
+
+.objective p{
+    color: #862B0D;
+    font-family: 'Courgette', cursive;
+    font-size: 1.7rem;
+    padding-left: 4rem;
+    padding-top: 0.8rem;
+    text-align: left;
+    width: 85%;
+}
+
+.objective p a{
+    color: inherit;
+}
+
+.objective p a:hover, .objective p a:focus{
+    color: #6C3428;
+}
+
 .collages{
     color: #65451F;
     text-align: center;
-}
-
-.collages h2{
-    font-size: 400%;
-}
-
-.collages hr{
-    border: none;
-    border-bottom-style: dotted;
-    border-width: 1rem;
-    margin: auto auto 3rem;
-    width: 9%;
 }
 
 .collage-links{
@@ -54,14 +97,14 @@
 }
 
 .collages a{
-    color: #6C3428;
+    color: #5e1b05;
     font-size: 1.5rem;
     text-decoration: none;
     word-spacing: 0.3rem;
 }
 
 .collages figure a:hover, .collages figure a:focus{
-    color: #3E001F;
+    color: #6C3428;
     font-size: 1.525rem;
 }
 
@@ -74,6 +117,27 @@
     .open-img img{
         left: 40%;
         z-index: -1;
+    }
+    
+    .objective hr{
+        width: 9%;
+    }
+
+    .objective img{
+        float: none;
+        border-radius: 50%;
+        display: block;
+        height: 14rem;
+        margin: 0 auto;
+        width: 27%;
+    }
+
+    .objective p{
+        font-size: 2.4rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        text-align: center;
+        width: 90%;
     }
 
     .collages hr{
@@ -89,6 +153,10 @@
         font-size: 2rem;
     }
 
+    .collages figure a:hover, .collages figure a:focus{
+        font-size: 2.05rem;
+    }
+
 }
         /* Mobile */
 @media screen and (max-width: 480px){
@@ -97,13 +165,31 @@
         width: 35%;
     }
 
-    .collages h2{
-        font-size: 300%;
+    .objective{
+        padding: 0.7rem 0 6rem;
+    }
+
+    .objective h2{
+        font-size: 500%;
+    }
+
+    .objective hr{
+        border-width: 1rem;
+        width: 10%;
+    }
+
+    .objective img{
+        height: 9rem;
+    }
+
+    .objective p{
+        font-size: 2.5rem;
+        padding-top: 1.3rem;
     }
 
     .collages hr{
-        border-width: 0.5rem;
-        width: 11%;
+        border-width: 1rem;
+        width: 15%;
     }
 
     .collages figure{
@@ -112,5 +198,9 @@
 
     .collages a{
         font-size: 1.8rem;
+    }
+
+    .collages figure a:hover, .collages figure a:focus{
+        font-size: 1.855rem;
     }
 }

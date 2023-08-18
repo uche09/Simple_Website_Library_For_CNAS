@@ -33,7 +33,7 @@ header{
 }
 
 .header h1{
-    color: #65451F;
+    color: #862B0D;
     display: inline-block;
     font-family: 'Kaushan Script', cursive;
     font-size: 400%;
@@ -86,6 +86,10 @@ footer{
     font-size: 11px;
     padding: 1rem 1rem 0.1rem;
     text-align: center;
+}
+
+.footer-h2{
+    color: #F6F4EB;
 }
 
 footer p{
