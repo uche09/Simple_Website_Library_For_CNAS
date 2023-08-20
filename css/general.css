@@ -211,10 +211,6 @@ footer img{
         width: fit-content;
     }
 
-    .header nav ul li a{
-        font-size: 2rem;
-    }
-
     .header nav ul li a:hover, .header nav ul li a:focus, .header nav ul li a:active{
         font-size: 0.9rem;
         text-decoration: none;
