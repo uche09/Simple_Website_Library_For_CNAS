@@ -1,0 +1,224 @@
+body{
+    text-align: center;
+}
+
+.form-heading{
+    margin: 4rem auto 2rem;
+}
+
+.form-heading h1{
+    color: #862B0D;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 380%;
+    margin: 0 auto 0;
+}
+
+.form-heading h2{
+    color: #862B0D;
+    font-family: cursive;
+    font-size: 150%;
+    margin-top: 0;
+}
+
+.description{
+    margin: 1.5rem auto 4rem;
+}
+
+.description p{
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    width: 68%;
+}
+
+.banner{
+    border-radius: 4rem;
+    float: right;
+    position: relative;
+    right: 1rem;
+    top: 8rem;
+    width: 40%;
+}
+
+form{
+    background-color: #b33b1338 ;
+    border: 4px;
+    border-left: #9c4022de;
+    border-top:#9c4022de;
+    border-right: #9c3512c9;
+    border-bottom: #9c3512c9;
+    border-radius: 3.5rem;
+    border-style: outset;
+    margin: 0 0 2rem 7rem;
+    padding: 2rem 0.1rem 3rem 1rem;
+    text-align: left;
+    width: 30%;
+}
+
+form .input{
+    background-color: #eac696d8;
+    border: none;
+    border-radius: 9px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    height: 2.2rem;
+    margin: 1rem 0;
+    margin-left: 1rem;
+    padding: 0 4px;
+    width: 68%;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 1.3rem;
+    margin: 7px;
+    text-align: center;
+}
+
+form textarea{
+    background-color: #eac696d8;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    margin: 0.7rem 0;
+    margin-left: 1.6rem;
+    border-radius: 15px;
+    margin: 0.7rem auto 1px 0;
+    padding: 1.3rem 7px 10px;
+    width: 85%;
+}
+
+form textarea::placeholder{
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;  
+}
+
+.required::after{
+    content: '*';
+}
+
+form .button{
+    background-color: #eac696d8;
+    border: none;
+    border-radius: 12px;
+    box-shadow:
+    inset 2px 2px 3px #eac696d8,
+    inset -2px -2px 3px rgba(107, 36, 12, 0.856);
+    color: #4b2e0c;
+    cursor: pointer;
+    font: inherit;
+    width: 6rem;
+    height: 3rem;
+}
+
+form .button:hover{
+   background-color: #4b2e0c;
+   color: #F9F5F6;
+}
+
+form .button:active{
+    box-shadow:
+    inset -2px -2px 3px rgba(107, 36, 12, 0.856),
+    inset 2px 2px 3px #eac696d8;
+}
+
+
+
+            /* MEDIA QUERIES */
+
+        /* Tablets */
+@media screen and (max-width:798px) {
+    
+    body{
+        font-size: 1.2rem;
+    }
+
+    .form-heading h1{
+        font-size: 300%;
+    }
+
+    .form-heading h2{
+        font-size: 98%;
+    }
+
+    .description p{
+        width: 70%;
+    }
+    
+    .banner{
+        border: 3px;
+        border-radius: 2.5rem;
+        width: 45%;
+    }
+
+    form{
+        border-radius: 2.5rem;
+        font-size: 51%;
+        margin-left: 6%;
+        width: 35%;
+    }
+
+    form .input{
+        font-size: 1.1rem;
+        height: 1.7rem;
+        width: 66%;
+    }
+
+    form .input::placeholder{
+        font-size: 1.1rem;
+    }
+
+    form textarea{
+        font-size: 1.1rem;
+    }
+    
+    form textarea::placeholder{
+        font-size: 1.1rem;  
+    }
+
+    form .button{
+        border-radius: 6px;
+        width: 4rem;
+        height: 2rem;
+    }
+
+    form .button:focus{
+        background-color: #4b2e0c;
+        color: #F9F5F6;
+    }
+}
+
+
+        /* Mobiles */
+@media screen and (max-width:505px) {
+
+    body{
+        font-size: 1.1rem;
+    }
+
+    .description p{
+        width: 85%;
+    }
+    
+    .banner{
+        float: none;
+        margin: 1rem;
+        position: static;
+        width: 80%
+    }
+
+    form{
+        font-size: 65%;
+        margin:2rem auto ;
+        width: 80%;
+    }
+
+
+   
+}

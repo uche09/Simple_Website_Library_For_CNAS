@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Library and Books">
+    
+    <title>eLibrary</title>
+
+            <!----- favicon ----->
+    <link rel="icon" href="resources/icons/favicon.ico">
+    
+
+            <!-------- css  ------->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/feedback.css">
+    
+
+            <!------ JavaScript ------>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="./js/menu.js"></script>
+
+
+            <!-------- header fonts -------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+            <!----- body fonts ------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+            <!-- feedback font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Roboto+Slab&display=swap" rel="stylesheet">
+        
+
+</head>
+
+
+
+<body>
+    <header class="header">
+        <img class="logo" src="./resources/icons/download-removebg-preview.png" alt="icon">
+        
+        <h1>e-LIBRARY</h1>
+
+        <nav class="wrapper">
+            <img class="bugger-nav" src="resources/icons/menu.png" alt="menue">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="index.html#collages">Colleges</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="#social">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <div class="form-heading">
+            <h1>Feedback</h1>
+            <h2>Your opinion means a lot to us</h2>
+        </div>
+        <br>
+        
+        <div class="description">
+            <p>Tell us what you think about our website.</p>
+            <p>Is there any book you would like to see in our library? Please let us know in the form below.</p>
+        </div>
+
+        <img class="banner" src="resources/images/feedback-img.jpg" alt="feedback-img">
+    
+        <form action="mailto:ucheomesu@gmail.com?cc=covenantjohnson5@gmail.com&subject=NUO%20E-Library%20Feedback" method="post" enctype="text/plain">
+
+            <label for="Name">Name</label>
+            <input class="input" type="text" placeholder="Enter your name">
+            <br><br>
+    
+            <label class="required" for="email">Email</label>
+            <input class="input" type="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+    
+            <label class="required" for="department">Dept</label>
+            <input class="input" type="text" name="Department" placeholder="Department" required>
+            <br><br>
+    
+            <label for="course">Course</label>
+            <input class="input" type="text" name="Course" placeholder="Course">
+            <br><br><br>
+    
+            <label class="required" for="Books">Book(s):</label>
+            <br>
+            <textarea name="Books" cols="30" rows="10" placeholder="Write a comment" required></textarea>
+            <br><br>
+    
+            <input type="submit" value="Submit" class="button" >
+        </form>
+
+    </main>
+
+    <footer>
+        <h2 id="social">Contact Us</h2>
+        <div class="social">
+            <a href="https://web.facebook.com/profile.php?id=100072527408423">
+                <img src="resources/icons/facebook.png" alt="facebook-icon">
+            </a>
+            <a href="mailto:covenantjohnson5@gmail.com?bcc=ucheomesu@gmail.com">
+                <img src="resources/icons/gmail.png" alt="email-icon">
+            </a>
+            <a href="#"></a>
+        </div>
+        <p>
+            <h2 class="footer-h2"><em>Project By Johnson Oboku Covenant</em></h2>
+            <h3>Novena University 2022/2023 graduating Set.</h3>
+            <br>© Copyright 2023.
+        </p>
+    </footer>
+</body>
+
+
+</html>
