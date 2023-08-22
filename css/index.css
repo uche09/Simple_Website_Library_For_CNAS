@@ -134,10 +134,9 @@ body hr{
 
     .objective p{
         font-size: 2rem;
-        padding-left: 2rem;
-        padding-top: 1rem;
+        padding: 1rem 1rem;
         text-align: center;
-        width: 90%;
+        width: 95%;
     }
 
     .collages hr{
@@ -167,6 +166,7 @@ body hr{
 
     .objective{
         padding: 0.7rem 0 6rem;
+        width: 95%;
     }
 
     .objective h2{
@@ -183,8 +183,10 @@ body hr{
     }
 
     .objective p{
-        font-size: 2rem;
+        font-size: 1rem;
+        padding: 1.3rem 0.3rem;
         padding-top: 1.3rem;
+        width: 98%;
     }
 
     .collages hr{

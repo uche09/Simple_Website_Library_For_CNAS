@@ -1,0 +1,134 @@
+/* .sort{
+    margin: 2rem 0;
+    padding: 0 0.5rem;
+}
+
+.lecture-note, .text-book{
+    font-size: 1.3rem;
+    height: 3.9rem;
+    width: 49.3%;
+}
+
+.lecture-note{
+    border-color: #862B0D;
+    border-radius: 1.5rem 0 0 1.5rem;
+    color: #862B0D;
+    background-color: inherit;
+}
+
+.text-book{
+    border-color: #862B0D;
+    border-radius: 0 1.5rem 1.5rem 0;
+    color: #862B0D;
+    background-color: inherit;
+    
+}
+
+.lecture-note:hover, .text-book:hover{
+    background-color: #862B0D;
+    color: #F6F4EB;
+} */
+
+
+
+.sections{
+    padding: 0 1%;
+    margin: 3rem 0 5rem;
+}
+
+.sections h2{
+    font-size: 250%;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.books-disp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sections figure{
+    border: 2px solid;
+    border-radius: 1.1rem;
+    margin: 1.1rem 0.2rem;
+    text-align: center;
+    width: 16%;
+}
+
+.sections figure .book-img{
+    border-radius: 1.1rem 1.1rem 0 0;
+    height: 19rem;
+    width: 100%;
+}
+
+figcaption{
+    padding: 0 0.1rem;
+    word-wrap: break-word;
+}
+
+figcaption .btn{
+    background-color: #eac696d8;
+    border-radius: 0.5rem;
+    box-shadow:
+    inset 2px 2px 3px #eac696d8,
+    inset -2px -2px 3px rgba(107, 36, 12, 0.856);
+    color: #4b2e0c;
+    cursor: pointer;
+    display: block;
+    height: 2rem;
+    margin: 0.9rem auto 0.3rem;
+    width: 5rem;
+}
+
+figcaption .btn-img{
+    height: 1.3rem;
+    margin: auto;
+    width: 1.2rem;
+}
+
+figcaption .btn:hover{
+    background-color: #4b2e0c;
+    box-shadow:
+    inset -2px -2px 3px rgba(107, 36, 12, 0.856),
+    inset 2px 2px 3px #eac696d8;
+    color: #F9F5F6;
+ }
+ 
+ figcaption .btn:active{
+     box-shadow:
+     inset -2px -2px 3px rgba(107, 36, 12, 0.856),
+     inset 2px 2px 3px #eac696d8;
+ }
+
+
+
+
+        /* MEDIA QUERIES */
+
+        /* Tablets */
+@media screen and (max-width:768px) {
+    .sections figure{
+        width: 21%;
+    }
+    
+}
+
+
+
+        /* Mobiles */
+@media screen and (max-width:480px) {
+    .sections figure{
+        width: 45%;
+    }
+
+    .sections figure .book-img{
+        height: 13rem;
+    }
+
+    figcaption .btn{
+        width: 4rem;
+    }
+}
+
+    

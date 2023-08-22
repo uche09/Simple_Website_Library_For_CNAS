@@ -169,11 +169,11 @@ footer img{
 
     .header nav ul li a{
         display: block;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .header nav ul li a:hover, .header nav ul li a:focus, .header nav ul li a:active{
-        font-size: 3.2rem;
+        font-size: 2.2rem;
         text-decoration: none;
     }
 }
@@ -211,8 +211,12 @@ footer img{
         width: fit-content;
     }
 
+    .header nav ul li a{
+        font-size: 1.5rem;
+    }
+
     .header nav ul li a:hover, .header nav ul li a:focus, .header nav ul li a:active{
-        font-size: 0.9rem;
+        font-size: 1.7rem;
         text-decoration: none;
     }
 }
